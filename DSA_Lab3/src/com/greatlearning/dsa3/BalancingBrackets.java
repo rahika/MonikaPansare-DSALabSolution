@@ -59,7 +59,12 @@ public class BalancingBrackets{
 		
 		public static void main(String[] args) {
 			
-			String bracketExpression = "[{)}]";
+			//String bracketExpression = "[2{55(32)40}20]";
+			String bracketExpression;
+			Scanner sc = new Scanner(System.in);
+			System.out.print("Enter String Containing Brackets");
+			bracketExpression = sc.nextLine();
+			
 			
 		   boolean result;
 		   
